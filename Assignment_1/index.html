@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>QUIZ TIME</h1>
+        <div class="container">
+        <p id="message-el">Click the start button to continue</p>
+        </div>
+        <nav id="navbar">
+            <div class="navigation">
+                <ul>
+                    <li><button class="start" onclick="start()" id="save-btn">Start Quiz</button></li>
+                    <br>
+                    <li><button class="Previous" onclick="previous()">Previous</button></li>
+                    <li><button class="Save and Next" onclick="saveNext()">Save and Next</button></li>
+                    <li><button class="Next" onclick="next()">Next</button></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="question-container" id="question"></div>
+        <form name="radioAnswers">
+            <input type="radio" name="choice" value="0"><label id="op1"></label></input>
+            <br>
+		    <input type="radio" name="choice" value="1"><label id="op2"></label></input>
+            <br>
+		    <input type="radio" name="choice" value="2"><label id="op3"></label></input>
+            <br>
+		    <input type="radio" name="choice" value="3"><label id="op4"></label></input>
+        </form>
+        <br>
+        <div class="submit container">
+          <button class="submit" onclick="submit()" id="submit">Submit</button>
+         </div> 
+         <br>
+          <button  onclick="Score()">Score:</button>
+          <p id="score-el"></p>
+         <div>
+              <ol id="result">
+
+              </ol>
+         </div>
+        <script src="script.js"></script>
+
+        
+    </body>
+</html>

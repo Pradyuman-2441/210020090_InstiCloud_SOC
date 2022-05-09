@@ -1,0 +1,22 @@
+body{
+    background-image: url("images.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: bisque;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+#navbar li{
+    display: inline;
+}
+#navbar button{
+    border-radius: 5px;
+    color:black;
+    background-color: aquamarine;
+    size: 10px;
+}
+#form{
+    display: inline;
+}
